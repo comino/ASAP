@@ -1,5 +1,35 @@
 <ion-view title="Your rest room?">
-  <ion-content class="padding">
-    <h1>Seriously ??</h1>
+
+  <ion-content class="padding"> 
+    <div class="list">
+    	<div class="card">
+    <div class="item item-divider"> Your rest room  
+      		<a class="item-icon-right"></a> 
+      </div>
+      <a class="item item-thumbnail-left">
+      		<img ng-src="{{imageSmell}}" alt="connecting...">
+       		
+       		<p align="center">Rating : 
+  <rating ng-model="2" max="5"></rating></p> 
+  <p align="center">
+      		 Smell: </br>{{smell/2}} </p></br>
+      		
+	    <p align="center"> <button ng-click="reloaddata_smell()" class= "button ion-refresh">  Refresh data </button></p>
+      	
+    </a>
+</div>
+	</div>
+<div class="card" >
+  <div class="item item-divider"> Rate your experience!
+
+</div></br><p align="center">
+  <rating ng-model="2" max="5"></rating></p>
+
+  <p align="center"> <button ng-click="reloaddata_smell()">  Send your feedback!  </button></p>
+      	
+    </a>
+
+
+</div>
   </ion-content>
 </ion-view>

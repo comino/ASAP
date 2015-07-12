@@ -12,3 +12,15 @@ map {
 table td, table td * {
     vertical-align: top;
 }
+
+ul.rating li {
+  display: inline;
+  border: 0px;
+  background: none;
+  padding: 10px 10px;
+}
+
+ul.rating li i {
+  font-size: 28px;
+  color: yellow;
+}

@@ -1,4 +1,10 @@
 {
-  "name": "ASAP",
-  "app_id": ""
+  "name": "ASAP"
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/easyEndpoint",
+      "proxyUrl": "http://smells.mybluemix.net/easyEndpoint"
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives'])
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives','ionic.rating'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -40,7 +40,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives']
     views: {
       'tab-dash': {
         templateUrl: 'templates/select.html',
-        controller: 'SelectCtrl'
+        controller: 'MapCtrl'
       }
     }
   })
